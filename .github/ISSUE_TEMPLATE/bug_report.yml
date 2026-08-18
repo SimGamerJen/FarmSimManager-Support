@@ -1,0 +1,160 @@
+name: Bug report
+description: Report a reproducible problem with Farm Sim Manager.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping test Farm Sim Manager.
+
+        Please do not post unreviewed support bundles, full logs, passwords, access tokens, or other sensitive information in this public issue.
+
+  - type: input
+    id: fsm-version
+    attributes:
+      label: Farm Sim Manager version
+      description: Find this in About Farm Sim Manager.
+      placeholder: 0.1.0-beta.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package type
+      description: Which Farm Sim Manager package are you running?
+      options:
+        - Installer
+        - Portable ZIP
+        - Development build
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: fs25-platform
+    attributes:
+      label: Farming Simulator 25 distribution
+      description: Select the closest match if the problem involves launching or detecting FS25.
+      options:
+        - GIANTS / direct download
+        - Steam
+        - Epic Games Store
+        - Other
+        - Not relevant to this issue
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of Farm Sim Manager
+      options:
+        - Installation / first launch
+        - Home / FS25 detection
+        - Mods / mod collections
+        - Mod Details / source checking
+        - Savegames
+        - Compare
+        - Profiles / activation
+        - Launching FS25
+        - Settings
+        - Log Monitor
+        - About / support bundle
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly and include any exact error text that is safe to publish.
+      placeholder: Tell us what Farm Sim Manager did and why it appeared wrong.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Give the shortest sequence that reproduces the problem.
+      placeholder: |
+        1. Open Farm Sim Manager
+        2. Go to ...
+        3. Select ...
+        4. Click ...
+        5. The problem occurs
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect Farm Sim Manager to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: What did Farm Sim Manager do instead?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Often
+        - Sometimes
+        - Happened once
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or additional context
+      description: Add safe-to-share screenshots or other useful details. Check images for personal information first.
+
+  - type: dropdown
+    id: support-bundle
+    attributes:
+      label: Support bundle
+      description: Farm Sim Manager can export a diagnostic bundle from the About window. Do not attach an unreviewed bundle publicly.
+      options:
+        - I can provide a reviewed support bundle privately if requested
+        - I have reviewed the bundle and it contains nothing I consider sensitive
+        - I cannot generate a support bundle
+        - Not relevant
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked existing open and closed issues for the same problem.
+          required: true
+        - label: I am not posting passwords, tokens, private keys, or an unreviewed diagnostic archive in this public issue.
+          required: true
+        - label: I understand Farm Sim Manager is currently Community Preview software.
+          required: true
