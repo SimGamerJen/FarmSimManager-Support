@@ -1,0 +1,80 @@
+name: Feature request
+description: Suggest an improvement or new workflow for Farm Sim Manager.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement to Farm Sim Manager.
+
+        Please describe the player problem or workflow first. That gives us room to choose the best implementation rather than locking the request to one UI idea.
+
+  - type: input
+    id: fsm-version
+    attributes:
+      label: Farm Sim Manager version
+      description: Which version are you currently using?
+      placeholder: 0.1.0-beta.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of Farm Sim Manager
+      options:
+        - Home / FS25 detection
+        - Mods / mod collections
+        - Mod Details / source checking
+        - Savegames
+        - Compare
+        - Profiles / activation
+        - Launching FS25
+        - Settings
+        - Log Monitor
+        - Diagnostics / support
+        - New Career / career setup
+        - General usability
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem or workflow would this improve?
+      description: Explain what is difficult, repetitive, unclear or currently impossible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested behaviour
+      description: Describe how you would like Farm Sim Manager to help. This can be high-level.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround or alternatives
+      description: If you already solve this another way, tell us how.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add safe-to-share examples, screenshots or related workflow details.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked existing open and closed issues for a similar request.
+          required: true
+        - label: I understand a feature request is not a commitment or delivery promise.
+          required: true
