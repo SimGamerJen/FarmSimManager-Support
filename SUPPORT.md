@@ -2,6 +2,10 @@
 
 This repository is the public support and feedback tracker for Farm Sim Manager. The application source and internal development repository remain private.
 
+The user-facing support front door is:
+
+**https://simgamerjen.com/farm-sim-manager/support/**
+
 ## Where to report things
 
 ### Bug reports
@@ -14,11 +18,11 @@ Use the **Feature request** issue form for workflow improvements or new capabili
 
 ### General usage help
 
-Check the current Farm Sim Manager user guide and Quick Start on **https://simgamerjen.com** before opening an issue. If a question reveals unclear behaviour or poor documentation, it may be converted into a documentation/usability issue.
+Check the current Farm Sim Manager Quick Start and User Guide at **https://simgamerjen.com/farm-sim-manager/docs/** before opening an issue. If a question reveals unclear behaviour or poor documentation, it may be converted into a documentation/usability issue.
 
 ### Sensitive diagnostics
 
-Do not post unreviewed support bundles or private diagnostic material publicly. If maintainers request additional diagnostics, use the private contact route on **https://simgamerjen.com** and reference the public GitHub issue number.
+Do not post unreviewed support bundles or private diagnostic material publicly. If maintainers request additional diagnostics, use the private contact route at **https://simgamerjen.com/contact/** and reference the public GitHub issue number.
 
 ## What happens after a report is opened
 

@@ -2,13 +2,17 @@
 
 Public support and feedback tracker for **Farm Sim Manager by SimGamerJen**.
 
-Farm Sim Manager is distributed through **https://simgamerjen.com**. The application source repository is private; this repository exists so Community Preview users can report bugs, request features and follow known issues without requiring access to the source code.
+Farm Sim Manager is distributed through **https://simgamerjen.com/farm-sim-manager/**. The application source repository is private; this repository exists so Community Preview users can report bugs, request features and follow known issues without requiring access to the source code.
+
+For the user-facing support landing page, start at:
+
+**https://simgamerjen.com/farm-sim-manager/support/**
 
 ## Before opening an issue
 
 Please make sure you are using the latest Farm Sim Manager build available from simgamerjen.com and check existing open and closed issues first.
 
-For normal usage guidance, use the Farm Sim Manager user guide and Quick Start published alongside the application on simgamerjen.com.
+For normal usage guidance, use the Farm Sim Manager Quick Start and User Guide at **https://simgamerjen.com/farm-sim-manager/docs/**.
 
 ## Report a bug
 
@@ -30,7 +34,7 @@ Farm Sim Manager can export a support bundle from the **About** window.
 
 **Do not upload a support bundle, full log, or other diagnostic archive to a public GitHub issue unless you have reviewed it first.** Diagnostic files can contain local filesystem paths, usernames, custom folder names or other information you may not want to publish.
 
-If a support bundle is needed, state in the issue that you can provide one privately when requested.
+If a support bundle is needed, state in the issue that you can provide one privately when requested, then use **https://simgamerjen.com/contact/** and reference the public issue number.
 
 ## Feature requests
 
@@ -52,7 +56,7 @@ It is not a general Farming Simulator 25 support forum and it does not contain t
 
 ## Security or privacy-sensitive reports
 
-Do **not** post passwords, access tokens, private keys, personal data, unredacted diagnostic archives, or other sensitive information in a public issue. For a report that may involve sensitive information, use the contact route on **https://simgamerjen.com** instead of publishing the details here.
+Do **not** post passwords, access tokens, private keys, personal data, unredacted diagnostic archives, or other sensitive information in a public issue. For a report that may involve sensitive information, use **https://simgamerjen.com/contact/** instead of publishing the details here.
 
 ## Current status
 
