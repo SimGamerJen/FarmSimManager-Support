@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Farm Sim Manager website and documentation
-    url: https://simgamerjen.com
-    about: Downloads, user documentation and general Farm Sim Manager information.
+  - name: Farm Sim Manager support hub
+    url: https://simgamerjen.com/farm-sim-manager/support/
+    about: Usage help, downloads, documentation, known issues and the correct support route.
   - name: Sensitive or private support
-    url: https://simgamerjen.com
-    about: Use the website contact route instead of posting private data, unredacted diagnostics, credentials or other sensitive information in a public issue.
+    url: https://simgamerjen.com/contact/
+    about: Use the private contact route instead of posting unreviewed support bundles, private data, credentials or other sensitive information in a public issue. Reference the public GitHub issue number when possible.
