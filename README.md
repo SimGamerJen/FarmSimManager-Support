@@ -67,3 +67,11 @@ The current Windows binaries may also trigger Microsoft Defender SmartScreen bec
 ---
 
 Farm Sim Manager is an independent project by SimGamerJen and is not affiliated with, endorsed by, sponsored by or produced by GIANTS Software GmbH.
+
+---
+
+## Licence and Permissions
+
+Copyright © 2026 SimGamerJen. All rights reserved.
+
+You may download and use this project for personal use. You may not modify, redistribute, re-upload, or publish this project, in whole or in part, or any derivative version without prior written permission from SimGamerJen.
